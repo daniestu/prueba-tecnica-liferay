@@ -21,7 +21,7 @@
 			<c:set var="apellidos"><liferay-ui:message key="crudweb.apellidos"/></c:set>
 			<c:set var="correo"><liferay-ui:message key="crudweb.correo"/></c:set>
 			<c:set var="fecha"><liferay-ui:message key="crudweb.fecha"/></c:set>
-			<c:set var="aceptar"><liferay-ui:message key="crudweb.aceptar"/></c:set>
+			<c:set var="modificar"><liferay-ui:message key="crudweb.modificar"/></c:set>
 			<c:set var="cancelar"><liferay-ui:message key="crudweb.cancelar"/></c:set>
 			
 			<aui:input name="nombre" type="text" label="${nombre}" required="true" value="<%= usuario.getNombre() %>" >
@@ -38,7 +38,7 @@
 			
 		</aui:fieldset>
 		<aui:button-row>
-			<aui:button type="submit" value="${aceptar}" />
+			<aui:button type="submit" value="${modificar}" />
 	        <aui:button type="reset" value="${cancelar}" />
 		</aui:button-row>
 	</aui:form>

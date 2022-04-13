@@ -20,6 +20,7 @@
       <th scope="col">${apellidos}</th>
       <th scope="col">${correo}</th>
       <th scope="col">${fecha}</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
