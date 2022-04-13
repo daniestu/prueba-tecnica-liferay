@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:crud-business:crud-business-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../crud-business-api/src/main/java"
+}
+
+group = "com.ricoh"
